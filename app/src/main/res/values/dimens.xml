@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_of_chip_group">50dp</dimen>
+    <dimen name="width_image_item_menu">140dp</dimen>
+    <dimen name="height_image_item_menu">160dp</dimen>
+    <dimen name="with_item_menu">160dp</dimen>
+    <dimen name="left_margin_for_item_details">10dp</dimen>
+    <dimen name="top_margin_for_item_details">10dp</dimen>
+    <dimen name="size_text_for_header_in_item_details">25sp</dimen>
+    <dimen name="size_text_for_price">20sp</dimen>
+    <dimen name="size_text_for_food_category">15sp</dimen>
+    <dimen name="end_margin_for_price">10dp</dimen>
+    <dimen name="chip_corner_radius">4dp</dimen>
+    <dimen name="chip_stroke_width">1dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="bottom_navigation_height">50dp</dimen>
+    <dimen name="margin_image">5dp</dimen>
+    <dimen name="margin_categories_left_and_right">2dp</dimen>
+</resources>

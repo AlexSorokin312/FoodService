@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:layout_margin="5dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/dish_image"
+        android:layout_width="@dimen/width_image_item_menu"
+        android:layout_height="@dimen/height_image_item_menu"
+        android:layout_gravity="left" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/with_item_menu"
+        android:layout_gravity="top"
+        android:layout_marginLeft="@dimen/left_margin_for_item_details"
+        android:layout_marginTop="@dimen/top_margin_for_item_details"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dish_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:maxLines="2"
+            android:textSize="@dimen/size_text_for_header_in_item_details"
+            android:textStyle="bold"
+            tools:text="Блюдо №1" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/dish_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="@dimen/end_margin_for_price"
+            android:backgroundTint="@color/white"
+            android:clickable="false"
+            android:textColor="@color/red_crayol"
+            android:textSize="@dimen/size_text_for_price"
+            app:chipCornerRadius="@dimen/chip_corner_radius"
+            app:chipStrokeColor="@color/red_crayol"
+            app:chipStrokeWidth="@dimen/chip_stroke_width"
+            tools:text="345" />
+    </FrameLayout>
+
+</LinearLayout>
